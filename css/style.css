@@ -1456,47 +1456,33 @@ body.dark .portfolio .portfolio-filter button.active {
     border-color: #ec1839 !important;
 }
 
-/* RED BUTTONS WITH WHITE ICONS */
-.btn,
-button,
-a.btn {
+
+/* SOCIAL ICONS - RED BACKGROUND + WHITE ICON */
+.home .social-links a,
+.home .social-links a i,
+.home .social-links a svg {
+    color: #ffffff !important;
+}
+
+.home .social-links a {
+    width: 40px !important;
+    height: 40px !important;
     background: #ec1839 !important;
-    border-color: #ec1839 !important;
-    color: #ffffff !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 6px !important;
+    transition: all 0.3s ease !important;
 }
 
-.btn i,
-.btn svg,
-button i,
-button svg,
-a.btn i,
-a.btn svg {
-    color: #ffffff !important;
-    fill: #ffffff !important;
-}
-
-.btn:hover,
-button:hover,
-a.btn:hover {
+.home .social-links a:hover {
     background: #d91432 !important;
-    border-color: #d91432 !important;
     color: #ffffff !important;
+    transform: translateY(-4px) !important;
 }
 
-/* Portfolio / action buttons */
-.portfolio-filter .active,
-.filter-btn.active {
-    background: #ec1839 !important;
+.home .social-links a:hover i,
+.home .social-links a:hover svg {
     color: #ffffff !important;
-}
-
-.portfolio-filter .active i,
-.filter-btn.active i {
-    color: #ffffff !important;
-}
-
-/* Sidebar active menu */
-.nav-link.active,
-.nav-link.active i {
-    color: #ec1839 !important;
 }
