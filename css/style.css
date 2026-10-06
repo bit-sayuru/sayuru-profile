@@ -1455,3 +1455,48 @@ body.dark .portfolio .portfolio-filter button.active {
 body.dark .portfolio .portfolio-filter button.active {
     border-color: #ec1839 !important;
 }
+
+/* RED BUTTONS WITH WHITE ICONS */
+.btn,
+button,
+a.btn {
+    background: #ec1839 !important;
+    border-color: #ec1839 !important;
+    color: #ffffff !important;
+}
+
+.btn i,
+.btn svg,
+button i,
+button svg,
+a.btn i,
+a.btn svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+
+.btn:hover,
+button:hover,
+a.btn:hover {
+    background: #d91432 !important;
+    border-color: #d91432 !important;
+    color: #ffffff !important;
+}
+
+/* Portfolio / action buttons */
+.portfolio-filter .active,
+.filter-btn.active {
+    background: #ec1839 !important;
+    color: #ffffff !important;
+}
+
+.portfolio-filter .active i,
+.filter-btn.active i {
+    color: #ffffff !important;
+}
+
+/* Sidebar active menu */
+.nav-link.active,
+.nav-link.active i {
+    color: #ec1839 !important;
+}
